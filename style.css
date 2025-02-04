@@ -1,0 +1,5 @@
+.gradient-hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #C0CCDA1A, #C0CCDA99, #C0CCDA1A);
+}
