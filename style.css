@@ -3,3 +3,18 @@
     height: 1px;
     background: linear-gradient(to right, #C0CCDA1A, #C0CCDA99, #C0CCDA1A);
 }
+@keyframes apear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.card{
+    animation: apear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
